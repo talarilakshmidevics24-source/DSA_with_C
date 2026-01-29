@@ -10,7 +10,8 @@ struct node *last = NULL;
 
 void insert(int value) {
     struct node *newnode = (struct node *)malloc(sizeof(struct node));
-    newnode->data = value;
+    struct node *newnode = (struct node *)malloc(sizeof(struct node));
+    newnode->data = value;i
 
     if (last == NULL) {
         last = newnode;
